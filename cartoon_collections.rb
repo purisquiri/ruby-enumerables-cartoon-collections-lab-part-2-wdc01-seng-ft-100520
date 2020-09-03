@@ -19,8 +19,8 @@ def long_planeteer_calls(planeteer_calls)
 end
 
 def find_valid_calls(planeteer_calls)
-  binding.pry
   valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
+  binding.pry
   planeteer_calls.select do |calls|
    calls == valid_calls
   end
